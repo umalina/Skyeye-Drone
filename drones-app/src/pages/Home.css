@@ -1,0 +1,98 @@
+.home {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero Section */
+.hero {
+  background: url("https://amateurphotographer.com/wp-content/uploads/sites/7/2022/08/Inflight-DJI_Air2S_ANICHOLSON_DSC1810.jpg") center/cover no-repeat;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(44, 38, 76);
+  text-shadow: 1px 1px 5px #000;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color:  rgb(44, 38, 76);
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color:rgb(74, 70, 70)
+}
+
+.hero .cta {
+  background: #e3e9ea;
+  border: none;
+  padding: 12px 28px;
+  font-size: 18px;
+  color: rgb(47, 141, 152);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hero .cta:hover {
+  background: #d3ddde;
+}
+
+/* Features Section */
+.features {
+  background: #144b7b;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.features li {
+  font-size: 18px;
+  background: hsl(210, 12%, 94%);
+  padding: 20px 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.features li:hover {
+  transform: translateY(-5px);
+}
+
+/* Drone Models Section */
+.models {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.models h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.drone-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}

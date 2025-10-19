@@ -1,0 +1,32 @@
+.drone-card {
+  width: 300px;
+  background: #e7e2e2;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.drone-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+.drone-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.drone-card h3 {
+  font-size: 22px;
+  margin: 15px 10px 5px;
+  color: #333;
+}
+
+.drone-card p {
+  font-size: 16px;
+  margin: 0 10px 15px;
+  color: #555;
+}
